@@ -1,27 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>UCS - Undisputed Championship Series</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;background:#030303;color:#fff;line-height:1.6}a{color:inherit}header{position:sticky;top:0;z-index:99;background:rgba(0,0,0,.9);border-bottom:1px solid rgba(255,0,0,.35);backdrop-filter:blur(8px)}.nav{max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;gap:20px;flex-wrap:wrap}.nav img{height:70px}.links{display:flex;gap:16px;flex-wrap:wrap}.links a{text-decoration:none;color:#eee;font-weight:800;font-size:13px;text-transform:uppercase}.links a:hover{color:#ff2020}.hero{min-height:92vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:#000;padding:80px 20px}.hero:after{content:"";position:absolute;bottom:-250px;left:50%;transform:translateX(-50%);width:180%;height:650px;background:radial-gradient(ellipse at center,rgba(255,0,0,.85) 0%,rgba(180,0,0,.55) 25%,rgba(90,0,0,.25) 50%,transparent 78%);z-index:0}.hero-content{position:relative;z-index:1;max-width:900px}.hero-logo{width:210px;max-width:80%;margin-bottom:22px}h1{font-size:clamp(42px,8vw,92px);line-height:.9;text-transform:uppercase;letter-spacing:2px}.red{color:#ff2020}.gold{color:#e0b341}.btn{display:inline-block;margin:12px;padding:14px 24px;border-radius:10px;background:#d60000;color:#fff;text-decoration:none;font-weight:900;text-transform:uppercase;box-shadow:0 0 20px rgba(255,0,0,.35);border:1px solid #ff4141}.btn.goldbtn{background:#d4af37;color:#090909;border-color:#ffe27a}section{padding:80px 20px}.wrap{max-width:1200px;margin:auto}.title{text-align:center;font-size:clamp(32px,5vw,54px);text-transform:uppercase;margin-bottom:36px;color:#fff}.title span{color:#ff2020}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.card{background:linear-gradient(180deg,#121212,#070707);border:1px solid rgba(255,0,0,.45);border-radius:18px;padding:24px;box-shadow:0 0 26px rgba(255,0,0,.13)}.card img{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.12)}.muted{color:#bbb}.discord{background:linear-gradient(90deg,#111,#220000,#111);text-align:center}.belts{background:#080000}.rank-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.rank-item{padding:18px;border:1px solid #3a0000;background:#0f0f0f;border-radius:14px;font-weight:900;text-align:center;color:#eee}table{width:100%;border-collapse:collapse;background:#080808;border:1px solid #333;box-shadow:0 0 30px rgba(255,0,0,.25)}th,td{padding:14px;border-bottom:1px solid #222;text-align:left}th{background:#111;border-bottom:2px solid #f00;text-transform:uppercase;font-size:13px}tr:hover{background:rgba(255,0,0,.15)}.forms{background:linear-gradient(180deg,#050505,#170000)}form{display:grid;gap:14px}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.contract-card{background:linear-gradient(180deg,#15151d,#08080c);border-color:#343449;box-shadow:0 0 34px rgba(255,0,0,.18)}input,select,textarea{width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#090909;color:white;font-size:16px}textarea{min-height:120px}button{cursor:pointer;padding:15px;border-radius:10px;border:0;background:#d60000;color:#fff;font-weight:900;text-transform:uppercase;font-size:16px}.status{font-weight:800;margin-top:10px;min-height:24px}footer{padding:35px 20px;text-align:center;background:#000;border-top:1px solid #400}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;background:#030303;color:#fff;line-height:1.6}a{color:inherit}header{position:sticky;top:0;z-index:99;background:rgba(0,0,0,.9);border-bottom:1px solid rgba(255,0,0,.35);backdrop-filter:blur(8px)}.nav{max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;gap:20px;flex-wrap:wrap}.nav img{height:70px}.links{display:flex;gap:16px;flex-wrap:wrap}.links a{text-decoration:none;color:#eee;font-weight:800;font-size:13px;text-transform:uppercase}.links a:hover{color:#ff2020}.hero{min-height:92vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:#000;padding:80px 20px}.hero:after{content:"";position:absolute;bottom:-250px;left:50%;transform:translateX(-50%);width:180%;height:650px;background:radial-gradient(ellipse at center,rgba(255,0,0,.85) 0%,rgba(180,0,0,.55) 25%,rgba(90,0,0,.25) 50%,transparent 78%);z-index:0}.hero-content{position:relative;z-index:1;max-width:900px}.hero-logo{width:210px;max-width:80%;margin-bottom:22px}h1{font-size:clamp(42px,8vw,92px);line-height:.9;text-transform:uppercase;letter-spacing:2px}.red{color:#ff2020}.gold{color:#e0b341}.btn{display:inline-block;margin:12px;padding:14px 24px;border-radius:10px;background:#d60000;color:#fff;text-decoration:none;font-weight:900;text-transform:uppercase;box-shadow:0 0 20px rgba(255,0,0,.35);border:1px solid #ff4141}.btn.goldbtn{background:#d4af37;color:#090909;border-color:#ffe27a}section{padding:80px 20px}.wrap{max-width:1200px;margin:auto}.title{text-align:center;font-size:clamp(32px,5vw,54px);text-transform:uppercase;margin-bottom:36px;color:#fff}.title span{color:#ff2020}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.card{background:linear-gradient(180deg,#121212,#070707);border:1px solid rgba(255,0,0,.45);border-radius:18px;padding:24px;box-shadow:0 0 26px rgba(255,0,0,.13)}.card img{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.12)}.muted{color:#bbb}.discord{background:linear-gradient(90deg,#111,#220000,#111);text-align:center}.belts{background:#080000}.rank-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.rank-item{padding:18px;border:1px solid #3a0000;background:#0f0f0f;border-radius:14px;font-weight:900;text-align:center;color:#eee}table{width:100%;border-collapse:collapse;background:#080808;border:1px solid #333;box-shadow:0 0 30px rgba(255,0,0,.25)}th,td{padding:14px;border-bottom:1px solid #222;text-align:left}th{background:#111;border-bottom:2px solid #f00;text-transform:uppercase;font-size:13px}tr:hover{background:rgba(255,0,0,.15)}.forms{background:linear-gradient(180deg,#050505,#170000)}form{display:grid;gap:14px}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}.contract-card{background:linear-gradient(180deg,#15151d,#08080c);border-color:#343449;box-shadow:0 0 34px rgba(255,0,0,.18)}input,select,textarea{width:100%;padding:14px;border-radius:10px;border:1px solid #444;background:#090909;color:white;font-size:16px}textarea{min-height:120px}button{cursor:pointer;padding:15px;border-radius:10px;border:0;background:#d60000;color:#fff;font-weight:900;text-transform:uppercase;font-size:16px}.status{font-weight:800;margin-top:10px;min-height:24px}.fighter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.fighter-card{border:1px solid rgba(255,0,0,.5);border-radius:16px;background:linear-gradient(180deg,#111,#070707);padding:20px}.fighter-card h3{color:#ff2020;margin-bottom:10px}.fighter-card p{color:#ddd;margin:6px 0}.empty-fighters{text-align:center;color:#aaa;border:1px dashed #555;border-radius:14px;padding:28px}footer{padding:35px 20px;text-align:center;background:#000;border-top:1px solid #400}
 @media(max-width:700px){.nav{justify-content:center}.links{justify-content:center}th,td{font-size:13px;padding:10px}.two{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header><div class="nav"><img src="assets/logo.png" alt="UCS Logo"><nav class="links"><a href="#home">Home</a><a href="#events">Events</a><a href="#rankings">Rankings</a><a href="#leaderboard">Leaderboard</a><a href="#belts">Our Belts</a><a href="#apply">Apply</a><a href="#callouts">Callouts</a><a href="#accept-fight">Accept Fight</a><a href="#fight-results">Fight Results</a><a href="https://discord.gg/ucs" target="_blank">Discord</a></nav></div></header>
+<header><div class="nav"><img src="assets/logo.png" alt="UCS Logo"><nav class="links"><a href="#home">Home</a><a href="#events">Events</a><a href="#rankings">Rankings</a><a href="#leaderboard">Leaderboard</a><a href="#belts">Our Belts</a><a href="#apply">Apply</a><a href="#signup">Signup</a><a href="#fighters">Our Fighters</a><a href="#callouts">Callouts</a><a href="#fight-results">Fight Results</a><a href="https://discord.gg/ucs" target="_blank">Discord</a></nav></div></header>
 <section class="hero" id="home"><div class="hero-content"><img class="hero-logo" src="assets/logo.png" alt="UCS Logo"><h1>Undisputed <span class="red">Championship</span> Series</h1><p class="muted" style="font-size:20px;margin:24px auto;max-width:760px">The home of elite boxing matchups, championship belts, rankings, and fighter callouts.</p><a class="btn" href="#apply">Apply Now</a><a class="btn goldbtn" href="https://discord.gg/ucs" target="_blank">Join Discord</a></div></section>
 <section id="events"><div class="wrap"><h2 class="title">Upcoming <span>Events</span></h2><div class="grid"><div class="card"><img src="assets/event.png" alt="UCS Event"><h3 class="gold" style="font-size:28px;margin-top:18px">UCS #01</h3><p>Applicants will be reviewed and matched within their weight class. Championship belts awarded to winners of featured title fights.</p></div></div></div></section>
 <section id="rankings"><div class="wrap"><h2 class="title">Rankings</h2><div class="rank-list"><div class="rank-item">Heavyweight</div><div class="rank-item">CruiserWeight</div><div class="rank-item">Light Heavyweight</div><div class="rank-item">MiddleWeight</div><div class="rank-item">WelterWeight</div><div class="rank-item">LightWeight</div><div class="rank-item">Featherweight</div><div class="rank-item">BantamWeight</div></div></div></section>
 <section id="leaderboard"><div class="wrap"><h2 class="title">UCS <span>Leaderboard</span></h2><div style="overflow-x:auto"><table><thead><tr><th>Rank</th><th>Fighter</th><th>Discord</th><th>Weight Class</th><th>Wins</th><th>Losses</th><th>Record</th></tr></thead><tbody><tr><td>#1</td><td>TBD</td><td>@fighter</td><td>Heavyweight</td><td>0</td><td>0</td><td>0-0</td></tr><tr><td>#2</td><td>TBD</td><td>@fighter</td><td>WelterWeight</td><td>0</td><td>0</td><td>0-0</td></tr><tr><td>#3</td><td>TBD</td><td>@fighter</td><td>LightWeight</td><td>0</td><td>0</td><td>0-0</td></tr></tbody></table></div></div></section>
 <section id="belts" class="belts"><div class="wrap"><h2 class="title">Our <span>Belts</span></h2><div class="grid"><div class="card"><img src="assets/belts.png" alt="UCS Belts"></div><div class="card"><h3 class="gold" style="font-size:32px">Undisputed + Legacy</h3><p style="font-size:20px;margin-top:15px">We have the <b>Undisputed Championship</b> and the <b>Legacy Championship</b> per weight class.</p><p style="font-size:20px;margin-top:15px">If you hold both, you are an <b class="gold">undisputed champion</b>. 🏆</p></div></div></div></section>
-<section id="apply" class="forms"><div class="wrap"><h2 class="title">Fighter <span>Application</span></h2><div class="card"><form id="applicationForm"><input id="appName" placeholder="Fighter Name" required><input id="appDiscord" placeholder="Discord Username" required><select id="appWeight" required><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><textarea id="appInfo" placeholder="Experience / record / availability" required></textarea><button>Submit Application</button><p class="status" id="appStatus"></p></form></div></div></section>
-<section id="callouts" class="forms"><div class="wrap"><h2 class="title">Contract <span>Callout</span></h2><div class="grid" style="grid-template-columns:1fr;max-width:760px;margin:auto"><div class="card contract-card"><h3 style="font-size:24px;margin-bottom:18px">Send Contract Challenge</h3><form id="calloutForm"><input id="callDiscord" placeholder="Your Discord Name" required><input id="callOpponent" placeholder="Person You Want To Fight" required><div class="two"><select id="callRounds" required><option>3 rounds</option><option>5 rounds</option><option>8 rounds</option><option selected>10 rounds</option><option>12 rounds</option></select><select id="callDamage" required><option>Simulation Damage</option><option selected>Normal Damage</option><option>Increased Damage</option></select></div><div class="two"><select id="callWeight" required><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><input id="callRating" placeholder="Rating Limit (optional)"></div><div class="two"><select id="callChampionship"><option>Regular Match</option><option>Legacy Championship</option><option>Undisputed Championship</option></select><select id="callFightType"><option>Ranked Fight</option><option>Exhibition Fight</option><option>Title Fight</option></select></div><div class="two"><select id="callBans"><option>No bans</option><option>Default bans</option><option>Custom bans</option></select><select id="callRematch"><option>No rematch clause</option><option>Rematch clause: Yes</option></select></div><select id="callLive"><option>Live fight: No</option><option>Live fight: Yes</option></select><textarea id="callNotes" placeholder="Callout message / rules / notes (optional)"></textarea><button>Send Challenge</button><p class="status" id="callStatus"></p></form></div></div></div></section>
+<section id="apply" class="forms"><div class="wrap"><h2 class="title">Fighter <span>Application</span></h2><div class="card"><form id="applicationForm"><input id="appName" placeholder="Fighter Name" required=""><input id="appDiscord" placeholder="Discord Username" required=""><select id="appWeight" required=""><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><textarea id="appInfo" placeholder="Experience / record / availability" required=""></textarea><button>Submit Application</button><p class="status" id="appStatus"></p></form></div></div></section>
 
-<section id="accept-fight" class="forms"><div class="wrap"><h2 class="title">Accept <span>Fight</span></h2><div class="card contract-card" style="max-width:760px;margin:auto"><h3 style="font-size:24px;margin-bottom:18px">Accept Fight Challenge</h3><form id="acceptForm"><input id="acceptDiscord" placeholder="Your Discord Name" required><input id="acceptOpponent" placeholder="Opponent / Fighter Who Called You Out" required><select id="acceptWeight" required><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><textarea id="acceptNotes" placeholder="Message / notes (optional)"></textarea><button>Accept Fight</button><p class="status" id="acceptStatus"></p></form></div></div></section>
+<section id="signup" class="forms"><div class="wrap"><h2 class="title">Fight <span>Signup</span></h2><div class="card"><p class="muted" style="margin-bottom:18px">Complete this signup to confirm your chosen fighter and fight availability.</p><form id="signupForm"><input id="signupName" placeholder="Name" required><select id="signupWeight" required><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><input id="signupFighter" placeholder="Chosen Fighter" required><input id="signupTimezone" placeholder="Timezone" required><input id="signupSignature" placeholder="E Signature" required><p class="muted" style="font-size:14px">By signing, you agree: I WILL SHOW UP 20 MINS BEFORE MY FIGHT AND PARTICIPATE.</p><button>Submit Signup</button><p class="status" id="signupStatus"></p></form></div></div></section>
+<section id="fighters"><div class="wrap"><h2 class="title">Our <span>Fighters</span></h2><p class="muted" style="text-align:center;margin:-18px auto 28px;max-width:760px">Signed fighters will appear here after they submit the Fight Signup form.</p><div id="fightersList" class="fighter-grid"></div></div></section>
+<section id="callouts" class="forms"><div class="wrap"><h2 class="title">Contract <span>Callout</span></h2><div class="card contract-card"><h3 style="font-size:24px;margin-bottom:18px">Send Contract Challenge</h3><form id="calloutForm"><input id="callDiscord" placeholder="Your Discord Name" required=""><input id="callOpponent" placeholder="Person You Want To Fight" required=""><div class="two"><select id="callRounds" required=""><option>3 rounds</option><option>5 rounds</option><option>8 rounds</option><option selected="">10 rounds</option><option>12 rounds</option></select><select id="callDamage" required=""><option>Simulation Damage</option><option selected="">Normal Damage</option><option>Increased Damage</option></select></div><div class="two"><select id="callWeight" required=""><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><input id="callRating" placeholder="Rating Limit (optional)"></div><div class="two"><select id="callChampionship"><option>Regular Match</option><option>Legacy Championship</option><option>Undisputed Championship</option></select><select id="callFightType"><option>Ranked Fight</option><option>Exhibition Fight</option><option>Title Fight</option></select></div><div class="two"><select id="callBans"><option>No bans</option><option>Default bans</option><option>Custom bans</option></select><select id="callRematch"><option>No rematch clause</option><option>Rematch clause: Yes</option></select></div><select id="callLive"><option>Live fight: No</option><option>Live fight: Yes</option></select><textarea id="callNotes" placeholder="Callout message / rules / notes (optional)"></textarea><button>Send Challenge</button><p class="status" id="callStatus"></p></form></div></div></section>
 
-<section id="fight-results" class="forms"><div class="wrap"><h2 class="title">Fight <span>Results</span></h2><div class="card"><form id="resultsForm"><input id="resultDate" type="date" required><input id="resultWinner" placeholder="Fighter They Picked / Winner" required><input id="resultOpponent" placeholder="Who They Fought" required><select id="resultWeight" required><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><textarea id="resultNotes" placeholder="Result details / method / round (optional)"></textarea><button>Submit Fight Result</button><p class="status" id="resultsStatus"></p></form></div></div></section>
+<section id="fight-results" class="forms"><div class="wrap"><h2 class="title">Fight <span>Results</span></h2><div class="card"><form id="resultsForm"><input id="resultDate" type="date" required=""><input id="resultWinner" placeholder="Fighter They Picked / Winner" required=""><input id="resultOpponent" placeholder="Who They Fought" required=""><select id="resultWeight" required=""><option value="">Select Weight Class</option><option>Heavyweight</option><option>CruiserWeight</option><option>Light Heavyweight</option><option>MiddleWeight</option><option>WelterWeight</option><option>LightWeight</option><option>Featherweight</option><option>BantamWeight</option></select><textarea id="resultNotes" placeholder="Result details / method / round (optional)"></textarea><button>Submit Fight Result</button><p class="status" id="resultsStatus"></p></form></div></div></section>
 <section class="discord"><div class="wrap"><h2 class="title">Join The <span>Discord</span></h2><p class="muted">Sign up for fights, view rankings, receive announcements, and compete for championship gold.</p><a href="https://discord.gg/ucs" target="_blank" class="btn">discord.gg/ucs</a></div></section>
 <footer>© 2026 Undisputed Championship Series</footer>
 
@@ -38,14 +38,15 @@
   <input type="hidden" name="payload_json" id="callout_payload_json">
 </form>
 
-<!-- Accept Fight webhook - same as Fight Callouts -->
-<form id="acceptWebhookForm" action="https://discord.com/api/webhooks/1510415410758029342/SyP9NlOU64P1MAKBRTxRmu27mhXEXuxGaRMZhxmfhWxT9mACVRTTbY9l_aGARgjgFrZM" method="POST" enctype="multipart/form-data" target="discordHiddenFrame" style="display:none">
-  <input type="hidden" name="payload_json" id="accept_payload_json">
-</form>
-
 <!-- Fight Results webhook -->
 <form id="resultsWebhookForm" action="https://discord.com/api/webhooks/1510413956114813059/Bz6Wp18RZZIY_1sKvGsIDD6xYoEpHotS9nq-YuepDxuzUd5ITPfUBNOEoF3Bg9lHQvY-" method="POST" enctype="multipart/form-data" target="discordHiddenFrame" style="display:none">
   <input type="hidden" name="payload_json" id="results_payload_json">
+</form>
+
+
+<!-- Fight Signup webhook -->
+<form id="signupWebhookForm" action="https://discord.com/api/webhooks/1510429110307127346/VjJYfbsvn8IO3MDREm5SzsPKJefMAseSa6LFnnfxwLUJxZYlKM9VSrVbmm-0pOx3P5Ty" method="POST" enctype="multipart/form-data" target="discordHiddenFrame" style="display:none">
+  <input type="hidden" name="payload_json" id="signup_payload_json">
 </form>
 
 <script>
@@ -56,6 +57,67 @@ function postToDiscord(formId, inputId, payload, statusEl, successText) {
     form.submit();
     statusEl.textContent = successText;
 }
+
+
+function getSavedFighters() {
+    try { return JSON.parse(localStorage.getItem('ucs_fighters') || '[]'); }
+    catch (e) { return []; }
+}
+
+function saveFighters(fighters) {
+    localStorage.setItem('ucs_fighters', JSON.stringify(fighters));
+}
+
+function renderFighters() {
+    const list = document.getElementById('fightersList');
+    if (!list) return;
+    const fighters = getSavedFighters();
+    if (!fighters.length) {
+        list.innerHTML = '<div class="empty-fighters">No fighters signed up yet.</div>';
+        return;
+    }
+    list.innerHTML = fighters.map(f => `
+        <div class="fighter-card">
+            <h3>${escapeHtml(f.name || f.fighter)}</h3>
+            <p><b>Chosen Fighter:</b> ${escapeHtml(f.fighter)}</p>
+            <p><b>Weight Class:</b> ${escapeHtml(f.weight)}</p>
+            <p><b>Timezone:</b> ${escapeHtml(f.timezone)}</p>
+            <p><b>E Signature:</b> ${escapeHtml(f.signature)}</p>
+        </div>
+    `).join('');
+}
+
+function escapeHtml(value) {
+    return String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+}
+
+renderFighters();
+
+document.getElementById('signupForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('signupName').value.trim();
+    const weight = document.getElementById('signupWeight').value;
+    const fighter = document.getElementById('signupFighter').value.trim();
+    const timezone = document.getElementById('signupTimezone').value.trim();
+    const signature = document.getElementById('signupSignature').value.trim();
+    const status = document.getElementById('signupStatus');
+
+    const exactMessage =
+`PLEASE COPY THIS FORMAT\n\nNAME : ${name}\nWEIGHT CLASS : ${weight}\nCHOSEN FIGHTER : ${fighter}\nTIMEZONE : ${timezone}\n\nE SIGNATURE: ${signature}\n(I WILL SHOW UP 20 MINS BEFORE MY FIGHT AND PARTICIPATE.)`;
+
+    const payload = {
+        username: 'UCS Signups',
+        content: exactMessage
+    };
+
+    const savedFighters = getSavedFighters();
+    savedFighters.push({ name, weight, fighter, timezone, signature });
+    saveFighters(savedFighters);
+    renderFighters();
+
+    postToDiscord('signupWebhookForm', 'signup_payload_json', payload, status, 'Signup sent instantly to Discord and added to Our Fighters.');
+    this.reset();
+});
 
 document.getElementById('calloutForm').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -76,6 +138,15 @@ document.getElementById('calloutForm').addEventListener('submit', function(e) {
     const payload = {
         username: 'UCS Callouts',
         content: '🥊 **Callout Opponent**\nA new UCS contract challenge has been issued.',
+        components: [{
+            type: 1,
+            components: [{
+                type: 2,
+                style: 5,
+                label: 'Accept Fight',
+                url: 'https://discord.gg/ucs'
+            }]
+        }],
         embeds: [{
             title: 'Callout Opponent',
             color: 15158332,
@@ -132,38 +203,6 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
     this.reset();
 });
 
-
-
-document.getElementById('acceptForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const acceptedBy = document.getElementById('acceptDiscord').value.trim();
-    const opponent = document.getElementById('acceptOpponent').value.trim();
-    const weight = document.getElementById('acceptWeight').value;
-    const notes = document.getElementById('acceptNotes').value.trim();
-    const status = document.getElementById('acceptStatus');
-
-    const payload = {
-        username: 'UCS Fight Accepted',
-        content: '✅ **Your opponent has accepted the fight.**',
-        embeds: [{
-            title: 'Fight Accepted',
-            color: 65280,
-            description: `**${acceptedBy}** has accepted the fight challenge from **${opponent}**.`,
-            fields: [
-                { name: 'Accepted By', value: acceptedBy || 'N/A', inline: true },
-                { name: 'Opponent / Caller', value: opponent || 'N/A', inline: true },
-                { name: 'Weight Class', value: weight || 'N/A', inline: false },
-                { name: 'Message', value: notes || 'No extra message.', inline: false }
-            ],
-            footer: { text: 'Undisputed Championship Series' },
-            timestamp: new Date().toISOString()
-        }]
-    };
-
-    postToDiscord('acceptWebhookForm', 'accept_payload_json', payload, status, 'Fight acceptance sent instantly to Discord.');
-    this.reset();
-});
-
 document.getElementById('resultsForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const date = document.getElementById('resultDate').value;
@@ -195,5 +234,6 @@ document.getElementById('resultsForm').addEventListener('submit', function(e) {
     this.reset();
 });
 </script>
-</body>
-</html>
+
+
+</body></html>
